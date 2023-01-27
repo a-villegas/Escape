@@ -1,0 +1,3 @@
+[submodule "Submodules/Restaurant"]
+	path = Submodules/Restaurant
+	url = git@github.com:a-villegas/Python-inheritance.git
