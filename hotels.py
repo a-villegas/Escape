@@ -1,5 +1,5 @@
 
-class hotels():
+class hotel():
     """An obscure example of a hotel"""
     
     def __init__(self, hotel_name, hotel_location='Los Angeles', total_days_stay=0, **kwargs):
@@ -10,7 +10,7 @@ class hotels():
     
     def describe_hotel(self):
         """Hotel Description"""
-        print(self.name.title() + "is located in " + self.hotel_location.title())
+        print(self.hotel_name.title() + " is located in " + self.hotel_location.title())
         
     
     def number_of_days_ocupancy(self):
